@@ -112,6 +112,14 @@ table {
   table tr {
     border-bottom: 1px dotted #AEADAD; }
 
+code {  
+    white-space: pre-wrap;       /* CSS 3 */
+    white-space: -moz-pre-wrap;  /* Mozilla */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* IE 5.5+ */
+}
+
 ::selection {
   background: #FFF5B8;
   color: #000;
